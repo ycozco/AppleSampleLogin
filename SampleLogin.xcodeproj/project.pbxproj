@@ -11,12 +11,11 @@
 		8C1237FF2CA453FB00646A62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1237FE2CA453FB00646A62 /* ContentView.swift */; };
 		8C1238012CA453FD00646A62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C1238002CA453FD00646A62 /* Assets.xcassets */; };
 		8C1238042CA453FD00646A62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C1238032CA453FD00646A62 /* Preview Assets.xcassets */; };
-		8C12380E2CA453FD00646A62 /* SampleLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C12380D2CA453FD00646A62 /* SampleLoginTests.swift */; };
 		8C1238182CA453FD00646A62 /* SampleLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1238172CA453FD00646A62 /* SampleLoginUITests.swift */; };
 		8C12381A2CA453FD00646A62 /* SampleLoginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1238192CA453FD00646A62 /* SampleLoginUITestsLaunchTests.swift */; };
 		8C1238272CA4566000646A62 /* LoginView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1238262CA4566000646A62 /* LoginView .swift */; };
 		8CBDE7322CA465A200A19037 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBDE7312CA465A200A19037 /* CreateAccountView.swift */; };
-		8CBDE7342CA4661600A19037 /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBDE7332CA4661600A19037 /* homeView.swift */; };
+		8CBDE73A2CA4674500A19037 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBDE7392CA4674500A19037 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,13 +42,12 @@
 		8C1238002CA453FD00646A62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C1238032CA453FD00646A62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8C1238092CA453FD00646A62 /* SampleLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C12380D2CA453FD00646A62 /* SampleLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleLoginTests.swift; sourceTree = "<group>"; };
 		8C1238132CA453FD00646A62 /* SampleLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C1238172CA453FD00646A62 /* SampleLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleLoginUITests.swift; sourceTree = "<group>"; };
 		8C1238192CA453FD00646A62 /* SampleLoginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleLoginUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8C1238262CA4566000646A62 /* LoginView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginView .swift"; sourceTree = "<group>"; };
 		8CBDE7312CA465A200A19037 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
-		8CBDE7332CA4661600A19037 /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
+		8CBDE7392CA4674500A19037 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				8C1237FB2CA453FB00646A62 /* SampleLogin	 */,
-				8C12380C2CA453FD00646A62 /* SampleLoginTests */,
 				8C1238162CA453FD00646A62 /* SampleLoginUITests */,
 				8C1237FA2CA453FB00646A62 /* Products */,
 			);
@@ -107,6 +104,7 @@
 		8C1237FB2CA453FB00646A62 /* SampleLogin	 */ = {
 			isa = PBXGroup;
 			children = (
+				8CBDE7392CA4674500A19037 /* HomeView.swift */,
 				8C1237FC2CA453FB00646A62 /* SampleLoginApp.swift */,
 				8C1237FE2CA453FB00646A62 /* ContentView.swift */,
 				8C1238002CA453FD00646A62 /* Assets.xcassets */,
@@ -114,7 +112,6 @@
 				8C1238022CA453FD00646A62 /* Preview Content */,
 				8C1238262CA4566000646A62 /* LoginView .swift */,
 				8CBDE7312CA465A200A19037 /* CreateAccountView.swift */,
-				8CBDE7332CA4661600A19037 /* homeView.swift */,
 			);
 			path = "SampleLogin\t";
 			sourceTree = "<group>";
@@ -125,14 +122,6 @@
 				8C1238032CA453FD00646A62 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		8C12380C2CA453FD00646A62 /* SampleLoginTests */ = {
-			isa = PBXGroup;
-			children = (
-				8C12380D2CA453FD00646A62 /* SampleLoginTests.swift */,
-			);
-			path = SampleLoginTests;
 			sourceTree = "<group>";
 		};
 		8C1238162CA453FD00646A62 /* SampleLoginUITests */ = {
@@ -277,7 +266,7 @@
 				8C1237FF2CA453FB00646A62 /* ContentView.swift in Sources */,
 				8C1238272CA4566000646A62 /* LoginView .swift in Sources */,
 				8CBDE7322CA465A200A19037 /* CreateAccountView.swift in Sources */,
-				8CBDE7342CA4661600A19037 /* homeView.swift in Sources */,
+				8CBDE73A2CA4674500A19037 /* HomeView.swift in Sources */,
 				8C1237FD2CA453FB00646A62 /* SampleLoginApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C12380E2CA453FD00646A62 /* SampleLoginTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,6 +16,7 @@
 		8C12381A2CA453FD00646A62 /* SampleLoginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1238192CA453FD00646A62 /* SampleLoginUITestsLaunchTests.swift */; };
 		8C1238272CA4566000646A62 /* LoginView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1238262CA4566000646A62 /* LoginView .swift */; };
 		8CBDE7322CA465A200A19037 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBDE7312CA465A200A19037 /* CreateAccountView.swift */; };
+		8CBDE7342CA4661600A19037 /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBDE7332CA4661600A19037 /* homeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		8C1238192CA453FD00646A62 /* SampleLoginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleLoginUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8C1238262CA4566000646A62 /* LoginView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginView .swift"; sourceTree = "<group>"; };
 		8CBDE7312CA465A200A19037 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		8CBDE7332CA4661600A19037 /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				8C1238022CA453FD00646A62 /* Preview Content */,
 				8C1238262CA4566000646A62 /* LoginView .swift */,
 				8CBDE7312CA465A200A19037 /* CreateAccountView.swift */,
+				8CBDE7332CA4661600A19037 /* homeView.swift */,
 			);
 			path = "SampleLogin\t";
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				8C1237FF2CA453FB00646A62 /* ContentView.swift in Sources */,
 				8C1238272CA4566000646A62 /* LoginView .swift in Sources */,
 				8CBDE7322CA465A200A19037 /* CreateAccountView.swift in Sources */,
+				8CBDE7342CA4661600A19037 /* homeView.swift in Sources */,
 				8C1237FD2CA453FB00646A62 /* SampleLoginApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
